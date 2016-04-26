@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+    <title>typeNumber</title>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width'>
+    <style>
+    body{
+        margin: 20px auto;
+        width: 500px;
+    }
+    .type-number-cont{}
+    .type-number-input{}
+    .type-number-more,
+    .type-number-less{}
+    </style>
+    <script src='typeNumber.js'></script>
+</head>
+<body>
+    <h1>typeNumber</h1>
+    <p>typeNumber is a module on Vanilla JS for create input like input[type=number] with easy support css styles.</p>
+    <h2>Here is input with type number</h2>
+    <input type='button' value='Click me!' onclick="simpNumber('input[type=number]',90,110);this.style.display='none'">
+    <input type='number' value='123'>
+    <h2>Here is input with type text</h2>
+    <input type='button' value='Click me!' onclick="simpNumber('input[type=text]');this.style.display='none'">
+    <input type='text' value='55'>
+    <p>project on <a href='https://github.com/EmgrtE/typeNumber'>GitHub</a></p>
+</body>
+</html>
